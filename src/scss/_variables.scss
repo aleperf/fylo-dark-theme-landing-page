@@ -1,0 +1,22 @@
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+//Primary colors
+//dark blue intro and email signup bg
+$intro-bg-color: hsl(217, 28%, 15%);
+$main-bg-color: hsl(218, 28%, 13%);
+$footer-bg-color: hsl(216, 53%, 9%);
+$testimonials-bg-color: hsl(219, 30%, 18%);
+
+//Accent colors
+$cta-gradient-1-color: hsl(176, 68%, 64%);
+$cta-gradient-2-color: hsl(198, 60%, 50%);
+$error-color: hsl(0, 100%, 63%);
+
+//Neutral colors
+$text-color: hsl(0, 0%, 100%);
+$text-color-dim: rgba($text-color, 0.8);
+
+//fonts
+$main-font: "Open Sans", sans-serif;
+$title-font: "Raleway", sans-serif;

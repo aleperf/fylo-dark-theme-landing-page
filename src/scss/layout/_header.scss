@@ -1,0 +1,90 @@
+.header {
+  /* ---------------------------------------NAVIGATION SECTION----------------------------------- **/
+  &__nav {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: $intro-bg-color;
+    padding: 2rem;
+    font-family: $title-font;
+
+    //about 350px
+    @media screen and (min-width: 21.9em) {
+      padding: 3rem;
+    }
+    //900px
+    @media screen and (min-width: 56.25em) {
+      padding: 4rem;
+    }
+    //1440px
+    @media screen and (min-width: 90em) {
+      padding: 5rem;
+    }
+
+    &--logo {
+      object-fit: cover;
+      width: 5.5rem;
+      height: 100%;
+      //about 350px
+      @media screen and (min-width: 21.9em) {
+        width: 8rem;
+      }
+
+      @media screen and (min-width: 56.25em) {
+        width: 10rem;
+      }
+      @media screen and (min-width: 90em) {
+        width: 12rem;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      font-weight: 400;
+      font-size: 0.7rem;
+
+      //352px
+      @media screen and (min-width: 22em) {
+        font-size: 1rem;
+      }
+      @media screen and (min-width: 56.25em) {
+        font-size: 1.2rem;
+      }
+      @media screen and (min-width: 90em) {
+        font-size: 1.4rem;
+      }
+
+      li:not(:last-child) {
+        margin-right: 0.5rem;
+        @media screen and (min-width: 21.9em) {
+          margin-right: 2rem;
+        }
+        @media screen and (min-width: 56.25) {
+          margin-right: 3rem;
+        }
+        @media screen and (min-width: 90em) {
+          margin-right: 4rem;
+        }
+      }
+
+      li {
+        a {
+          text-decoration: none;
+          color: $text-color-dim;
+          transition: all 0.2 ease;
+        }
+
+        a:hover,
+        a:active {
+          color: $text-color;
+          text-decoration: underline;
+          cursor: pointer;
+          font-weight: 700;
+          outline: none;
+        }
+      }
+    }
+  }
+}
