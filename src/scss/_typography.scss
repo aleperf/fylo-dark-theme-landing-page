@@ -22,21 +22,17 @@ h1 {
   //550px
   @media screen and (min-width: 34.375em) {
     font-size: 2.4rem;
-    max-width: 65%;
   }
   //700px
   @media screen and (min-width: 43.75em) {
     font-size: 2.6rem;
-    max-width: 70%;
   }
   //900px
   @media screen and (min-width: 56.25em) {
     font-size: 2.8rem;
-    max-width: 70%;
   }
-
+  //1200
   @media screen and (min-width: 75em) {
     font-size: 4.2rem;
-    max-width: 60%;
   }
 }

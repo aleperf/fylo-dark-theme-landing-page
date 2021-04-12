@@ -1,0 +1,54 @@
+.features {
+  padding: 4rem 0;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-gap: 5rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+
+  @media screen and (min-width: 50em) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80%;
+    grid-gap: 10rem;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 20rem;
+    max-width: 90%;
+    //300px
+    @media screen and (min-width: 18.75em) {
+      width: 32rem;
+    }
+    //800px
+    @media screen and (min-width: 50em) {
+      width: 35rem;
+    }
+
+    &--img {
+      display: block;
+    }
+
+    &--title {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+
+      @media screen and (min-width: 50em) {
+        font-size: 2rem;
+      }
+    }
+
+    &--description {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+  }
+}
