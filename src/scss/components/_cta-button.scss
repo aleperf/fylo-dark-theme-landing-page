@@ -1,0 +1,42 @@
+.cta-btn {
+  padding: 1rem 4rem;
+  color: #fff;
+  background-image: linear-gradient(
+    $cta-gradient-1-color,
+    $cta-gradient-2-color
+  );
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: Raleway, sans-serif;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  @media screen and (min-width: 18.75em) {
+    padding: 1.5rem 8rem;
+    font-size: 1.4rem;
+  }
+
+  &:hover {
+    background: $cta-gradient-1-color;
+    cursor: pointer;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    background: $cta-gradient-1-color;
+  }
+
+  &:active {
+    transform: scale(1.1);
+  }
+  @media screen and (min-width: 62.5em) {
+    padding: 1.6rem 9rem;
+  }
+  @media screen and (min-width: 87.5em) {
+    padding: 1.8rem 9.5rem;
+  }
+}
