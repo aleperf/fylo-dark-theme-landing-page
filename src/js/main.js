@@ -1,5 +1,3 @@
-import "../scss/main.scss";
-
 const submitBtn = document.getElementById("sign-up-submit");
 const errorMessageEl = document.getElementById("email-error-message");
 console.log(errorMessageEl);

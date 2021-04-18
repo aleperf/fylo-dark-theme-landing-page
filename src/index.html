@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/scss/main.scss">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-  <title> Fylo landing page with dark theme and features grid | design by Frontend Mentor </title>
+  <title> Fylo landing page with dark theme and features grid | design Frontend Mentor </title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -190,71 +190,79 @@
     <!----------------------------  FOOTER SECTION  ---------------------------->
     <footer class="footer">
       <img src="./images/logo.svg" alt="fylo logo" class="footer__logo">
-      <div class="footer-info">
-        <div class="footer-info__contacts">
-          <!--TODO: ADD BEFORE ICON IMAGES-->
-          <p class="footer-info__contacts--location"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-          <div class="footer-info__contacts-media">
+      <div class="footer-container">
+        <div class="footer-info">
+          <div class="footer-info__contacts">
+            <!--TODO: ADD BEFORE ICON IMAGES-->
+            <img src="./images/icon-location.svg" alt="icon location" class="footer-info__contacts--icon icon-location">
+            <p class="footer-info__contacts--location"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 
-            <p class="footer__info__contacts-media--phone"> +1-543-123-4567</p>
-            <p class="footer__info--contacts-media--email"> example@fylo.com</p>
+            <img src="./images/icon-phone.svg" alt="icon phone" class="footer-info__contacts--icon icon-phone">
+
+            <p class="footer-info__contacts--phone"> +1-543-123-4567</p>
+            <img src="./images/icon-email.svg" alt="icon email" class="footer-info__contacts--icon icon-email">
+            <p class="footer-info__contacts--email"> example@fylo.com</p>
+
 
           </div>
         </div>
+        <div class="footer-bottom">
+          <ul class="footer-bottom__links">
+            <li> About Us</li>
+            <li> Jobs</li>
+            <li> Press</li>
+            <li> Blog</li>
+          </ul>
+
+          <ul class="footer-bottom__links">
+            <li> Contact Us</li>
+            <li> Terms</li>
+            <li> Press</li>
+            <li> Privacy</li>
+          </ul>
+          <ul class="footer-bottom__social">
+            <!--facebook-->
+            <li><a href="####" class="footer-bottom__social-link">
+
+                <div class="footer-bottom__social-icon">
+                  <i class="fab fa-facebook-f"></i>
+
+                </div>
+
+              </a></li>
+            <!--twitter-->
+            <li><a href="###" class="footer-bottom__social-link">
+                <div class="footer-bottom__social-icon">
+                  <i class="fab fa-twitter"></i>
+
+                </div>
+              </a></li>
+            <!--instagram-->
+            <li><a href="###" class="footer-bottom__social-link">
+                <div class="footer-bottom__social-icon">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </a></li>
+          </ul>
+        </div>
+
+
       </div>
 
-      <ul class="footer__links">
-        <li> About Us</li>
-        <li> Jobs</li>
-        <li> Press</li>
-        <li> Blog</li>
-      </ul>
-      <br><br><br>
-      <ul class="footer__links">
-        <li> Contact Us</li>
-        <li> Terms</li>
-        <li> Press</li>
-        <li> Privacy</li>
-      </ul>
-      <ul class="footer__social">
-        <!--facebook-->
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">
 
-            <div class="footer__social-icon">
-              <i class="fab fa-facebook-f"></i>
-
-            </div>
-
-          </a></li>
-        <!--twitter-->
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">
-            <div class="footer__social-icon">
-              <i class="fab fa-twitter"></i>
-
-            </div>
-          </a></li>
-        <!--instagram-->
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">
-            <div class="footer__social-icon">
-              <i class="fab fa-instagram"></i>
-            </div>
-          </a></li>
-      </ul>
     </footer>
 
-
-
-
-
-
-
-    <div>
-      <p class="attribution">
+    <div class="attribution">
+      <p>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="https://github.com/aleperf">@aleperf</a>.
       </p>
     </div>
+
+
+
+
   </div>
 
   <script src="./js/main.js"></script>

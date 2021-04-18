@@ -6,12 +6,14 @@
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  /*   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-items: center; */
 
   @media screen and (min-width: 90em) {
     max-width: 144rem;
+  }
+
+  .attribution {
+    display: flex;
+
+    margin: 4rem 0;
   }
 }
