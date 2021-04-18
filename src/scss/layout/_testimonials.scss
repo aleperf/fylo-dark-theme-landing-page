@@ -3,7 +3,7 @@
   flex-direction: column;
   padding-top: 3rem;
   margin-top: 3rem;
-  margin-bottom: 15rem;
+  margin-bottom: 30rem;
   background-image: url("./../images/bg-quotes.png");
   font-size: 1rem;
   background-position: 2% 1.5%;
@@ -28,8 +28,9 @@
     line-height: 1.6;
     font-size: 1rem;
     flex-direction: column;
-    background-color: $intro-bg-color;
+    background-color: $testimonials-bg-color;
     width: 22rem;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
 
     padding: 2.5rem 2rem;
     border-radius: 5px;

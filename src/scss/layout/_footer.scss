@@ -1,0 +1,16 @@
+/* .footer__social-icon {
+  fill: currentColor;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+} */
+
+.footer {
+  background-color: $footer-bg-color;
+  padding-top: 30rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
