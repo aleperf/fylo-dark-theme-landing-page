@@ -4,7 +4,6 @@ console.log(errorMessageEl);
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log("clicked");
   const submittedEmail = document.getElementById("email").value;
   if (validateEmail(submittedEmail)) {
     errorMessageEl.classList.remove("visible");
