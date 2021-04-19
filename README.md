@@ -30,7 +30,7 @@ The Fylo landing ha page has six main sections, below a brief description with s
 </li>
 <li>A sign-up section at the bottom of the page inviting the customer to leave an email address. When the user submits the email there is a basic check for its correct formation. <br>
 <br>
-<p align="center"><img src="./screenshots/errorMobi.jpg" width="150" align="center"></p></li>
+<p align="center"><img src="./screenshots/errorMobi.jpg" width="200" align="center"></p></li>
 
 </li>
 <li>A footer with contacts, social links and links to other possible pages of the Fylo website
