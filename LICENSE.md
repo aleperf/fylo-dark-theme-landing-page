@@ -6,4 +6,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH RE
 
 Source: http://opensource.org/licenses/ISC
 
+#### Credits
+
 PLEASE NOTE: the original designs and images (where not differently specified) are from [Frontend Mentor](https://www.frontendmentor.io) and not owned by the author of this software.
+The social icons (facebook, twitter and instragram) are from [Font Awesome](https://fontawesome.com/)
