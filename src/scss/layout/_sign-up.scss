@@ -103,6 +103,7 @@
         margin-left: 2rem;
         opacity: 0;
         grid-row: 2;
+        transition: opacity 0.2s ease-in;
       }
 
       &-error-message.visible {
