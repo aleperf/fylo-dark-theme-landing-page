@@ -1,11 +1,8 @@
 # Solution for the Frontend Mentor - Fylo landing page dark theme and features grid challenge.
 
-<div style="display: flex; justify-content: center">
-<div style="text-align: center; display: flex; flex-direction: column;"><img src="./screenshots/desktop1b.jpg" width="150" align="center"> 
-<img src="./screenshots/desktop2.jpg" width="150" align="center">
-
-</div>
-</div>
+<p align="center">
+<img src="./screenshots/total1b.jpg" width="150" align="center">
+</p>
 <br>
 <br>
 This is my solution for the Fylo Landing Page challenge by [Frontend Mentor](https://www.frontendmentor.io). Above you can see the screenshots for the desktop version at 1440px width.
